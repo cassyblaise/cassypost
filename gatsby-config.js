@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `cassypost`,
-    description: `A Gatsby Netlify CMS powered Blog Starter to boost your development.`,
+    title: `cassyPost`,
+    description: `Get the most recent news on blockchain, crypto industry at cassyPost. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
     author: `@cassyjnr`,
   },
   plugins: [

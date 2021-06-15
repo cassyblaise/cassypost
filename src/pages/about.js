@@ -6,29 +6,23 @@ import SEO from "../components/seo"
 const AboutPage = () => {
   return (
     <Layout>
-      <SEO title="About Blog Boost Starter" />
+      <SEO title="About CassyPost" />
       <div id="about">
-        <h2>About Blog Boost Starter</h2>
+        <h2>About Us</h2>
         <p>
-          <strong>Gatsby Starter Blog Boost</strong> is a Netlify CMS powered
-          Gatsby Blog with a wide range of features already configured.
+          <strong>CassyPost Media</strong> is an independent digital media outlet covering a wide range of news on emering trends, 
+          blockchain technology, crypto assets. Its focus is educate, inform and also features the brightest mind in the 
+          tech community to give an insight on the current state and direction of the latest technology.
         </p>
 
-        <p>
-          This starter is a great way to get blogging using a content manager
-          while learning and practicing <strong>JavaScript</strong>,{" "}
-          <strong>React</strong>, <strong>Gatsby</strong>, and{" "}
-          <strong>GraphQL</strong>,
-        </p>
-
-        <div className="about-icons">
+        {/* <div className="about-icons">
           <span role="img" aria-label="Laptop.">
             💻
           </span>
           <span role="img" aria-label="Rocket.">
             🚀
           </span>
-        </div>
+        </div> */}
 
         <h3>Thanks for visiting!!</h3>
       </div>

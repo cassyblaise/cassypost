@@ -27,6 +27,8 @@ a {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;   
+    font-style: normal;
 }
 
 /* Multi-use Components */
@@ -404,7 +406,7 @@ body {
 }
 @media (min-width: 601px) {
   .sidebar-emails input[type="submit"]:hover {
-    background: #202ef6;
+    background: #989ef0;
   }
 }
 .sidebar-emails span {
@@ -512,7 +514,7 @@ footer {
     background-color: #3b5999;
   }
   #yt-icon:hover {
-    background-color: #1145b6;
+    background-color: #f32d37;
   }
   #li-icon:hover {
     background-color: #0077b5;

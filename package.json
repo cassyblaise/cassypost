@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-blog-boost",
   "private": true,
-  "description": "A Gatsby Netlify CMS powered Blog Starter to boost your development.",
+  "description": "CassyPost Media.",
   "version": "0.1.0",
   "author": "cassy blaise",
   "dependencies": {
