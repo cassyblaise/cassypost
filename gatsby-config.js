@@ -29,6 +29,8 @@ module.exports = {
         name: `topic`,
       },
     },
+
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -41,6 +43,13 @@ module.exports = {
       options: {
           endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=bf58177dc8a1774b00194239c&amp;id=7be02f6ae4'
           // timeout: 3500,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: process.env.GA_TRACKING_ID,
       },
     },
     {
