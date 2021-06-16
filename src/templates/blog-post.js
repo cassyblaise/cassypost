@@ -32,6 +32,7 @@ class ArticleTemplate extends Component {
           <header>
             <h1 className="article-title">{post.frontmatter.title}</h1>
             <p className="article-date">{post.frontmatter.date}</p>
+            <p className="article-date">{post.timeToRead} Min read</p>
             <div className="article-tags">
               {post.frontmatter.tags.map(tag => (
                 <Link
@@ -114,6 +115,7 @@ export const pageQuery = graphql`
           }
         }
       }
+      timeToRead
     }
     allMarkdownRemark {
       edges {

@@ -35,6 +35,7 @@ const TopicPageTemplate = ({ pageContext }) => {
                 }
               }
             }
+            timeToRead
           }
         }
       }

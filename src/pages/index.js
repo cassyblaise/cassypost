@@ -53,6 +53,7 @@ const IndexPage = props => {
                 }
               }
             }
+            timeToRead
           }
         }
       }
