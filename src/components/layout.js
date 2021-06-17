@@ -4,7 +4,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
+
 import "./styles.css"
+import "./global.css"
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -26,6 +28,7 @@ const Layout = ({ children }) => {
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
       />
+      
       <div className="container">
         <main>{children}</main>
       </div>

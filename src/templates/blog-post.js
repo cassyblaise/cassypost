@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Image from "gatsby-image"
 import SEO from "../components/seo"
 import Card from "../components/card"
+import MailChimpForm from "../components/mailchimpform"
 
 class ArticleTemplate extends Component {
   render() {
@@ -54,15 +55,17 @@ class ArticleTemplate extends Component {
               className="article-image"
             ></Image>
           </header>
+         
           <div
             className="article-markdown"
+            
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
-
+            <MailChimpForm />
           <div>
             {similarPosts.length > 0 && (
               <h3 id="similar-posts-header">
-                Other {this.props.pageContext.topic} Tutorials
+                Other {this.props.pageContext.topic} news
               </h3>
             )}
 

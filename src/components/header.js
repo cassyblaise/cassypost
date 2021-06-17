@@ -1,7 +1,7 @@
 import { Link, useStaticQuery, graphql, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-
+// import Switch from "react-switch";
 import { FiMenu } from "react-icons/fi"
 import { MdClose } from "react-icons/md"
 import { IoIosSearch } from "react-icons/io"
@@ -21,7 +21,9 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
   `)
 
   return (
+    
     <header id="header">
+       
       <div className="container">
         <button
           id="site-logo-wrapper"
@@ -64,6 +66,7 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
             </form>
             <IoIosSearch />
           </div>
+          {/* <Switch onChange ={() => {}}/> */}
           {menuOpen ? (
             <button className="menu-button" onClick={() => setMenuOpen(false)}>
               <MdClose />
