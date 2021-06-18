@@ -94,7 +94,7 @@ const IndexPage = props => {
             })}
           </div>
           <div className="sidebar">
-            <h2 className="sidebar-header">Mailing List</h2>
+            <h2 className="sidebar-header">Join Our Newsletter</h2>
             <MailChimpForm />
             {/* <div className="sidebar-emails">
               <h2>Mailing list here</h2>

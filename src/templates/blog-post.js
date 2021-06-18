@@ -4,13 +4,20 @@ import Layout from "../components/layout"
 import Image from "gatsby-image"
 import SEO from "../components/seo"
 import Card from "../components/card"
+import ShareButtons from "../components/sharebuttons"
 import MailChimpForm from "../components/mailchimpform"
+
 
 class ArticleTemplate extends Component {
   render() {
     const { data, pageContext } = this.props
     const { topic } = pageContext
     const post = data.markdownRemark
+    const title = `Read ${this.props.data.markdownRemark.frontmatter.title} `;
+    const url = this.props.location.href;
+    const twitterHandle = "cassyjnr";
+    const tags = this.props.data.markdownRemark.frontmatter.tags;
+
 
     const similarPosts = data.allMarkdownRemark.edges
       .filter(item => {
@@ -61,6 +68,9 @@ class ArticleTemplate extends Component {
             
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+          <div>
+          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
+         </div>
             <MailChimpForm />
           <div>
             {similarPosts.length > 0 && (

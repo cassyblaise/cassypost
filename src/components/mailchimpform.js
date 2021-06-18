@@ -46,8 +46,10 @@ export default class MailChimpForm extends React.Component {
       return (
 
         <div className="sidebar-emails">
-              <h2>Get the Latest from CassyPost</h2>
-              <p>Subscribe to my list for lots of great reasons</p>
+              <h2>Get the Latest tech news from CassyPost</h2>
+              <p>If you've found any of our articles useful, subscribe to 
+                be notified of more quality articles as soon as they're published.
+                </p>
               <form onSubmit={this.handleSubmit}> 
                 <input type="text"  value={this.state.email}  onChange={this.changeEmailHandler} id="email" aria-label="email" />
                 <input
@@ -56,7 +58,7 @@ export default class MailChimpForm extends React.Component {
                   aria-label="subscribe"
                 />{" "}
               </form>
-              <span>Latest news updates, unsubscribe at any time</span>
+              <span>We won't send you spam and you can unsubscribe at any time</span>
             </div>
        
       )
