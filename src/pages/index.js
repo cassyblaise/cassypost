@@ -41,6 +41,7 @@ const IndexPage = props => {
             }
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
+              author
               title
               description
               category
@@ -87,6 +88,8 @@ const IndexPage = props => {
                   <Card
                     key={node.id}
                     slug={node.fields.slug}
+                    date={node.frontmatter.date}
+                    author={node.frontmatter.author}
                     frontmatter={node.frontmatter}
                   />
                 )

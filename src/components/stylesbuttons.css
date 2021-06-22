@@ -1,4 +1,4 @@
-.share-button{
+/* .share-button{
     opacity: 1;
     padding: 16px 18px;
     font-size: 24px;
@@ -10,7 +10,7 @@
     flex-basis: 60px;
     height: 60px;
     flex-grow: 0;
-}
+} */
 .icon{
     color: rgb(0, 0, 0); 
     margin-right: 1rem;

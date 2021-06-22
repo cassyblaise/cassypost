@@ -40,6 +40,7 @@ class ArticleTemplate extends Component {
           <header>
             <h1 className="article-title">{post.frontmatter.title}</h1>
             <p className="article-date">{post.frontmatter.date}</p>
+            <p className="article-date">By {post.frontmatter.author}</p>
             <p className="article-date">{post.timeToRead} Min read</p>
             <div className="article-tags">
               {post.frontmatter.tags.map(tag => (
@@ -71,6 +72,7 @@ class ArticleTemplate extends Component {
           <div>
           <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
          </div>
+         <hr />
             <MailChimpForm />
           <div>
             {similarPosts.length > 0 && (
@@ -87,6 +89,7 @@ class ArticleTemplate extends Component {
                     title={node.frontmatter.title}
                     slug={node.fields.slug}
                     date={node.frontmatter.date}
+                    author={node.frontmatter.author}
                     description={node.frontmatter.description}
                     excerpt={node.excerpt}
                     frontmatter={node.frontmatter}
@@ -117,6 +120,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         dateModified(formatString: "MMMM DD, YYYY")
+        author
         description
         tags
         category

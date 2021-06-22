@@ -7,6 +7,14 @@ module.exports = {
     title: `cassyPost`,
     description: `Get the most recent news on blockchain, crypto industry at cassyPost. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
     author: `@cassyjnr`,
+    // author: {
+    //   name: `Kyle Mathews`,
+    //   summary: `who lives and works in San Francisco building useful things.`,
+
+    // },
+    // social: {
+    //   twitter: `kylemathews`,
+    // },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
