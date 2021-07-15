@@ -11,20 +11,7 @@ import Featured from "../components/featured"
 import Search from "../components/search"
 
 const IndexPage = props => {
-
-  // constructor(props) {
-  //   super(props)
-  //   this.state = { email: "", result: null }
-  // }
-  // _handleSubmit = async e => {
-  //   e.preventDefault()
-  //   const result = await addToMailchimp(this.state.email)
-  //   this.setState({result: result})
-  // }
-  // handleChange = event => {
-  //   this.setState({ email: event.target.value })
-  // }
-
+  
   const data = useStaticQuery(graphql`
     {
       tagsGroup: allMarkdownRemark(limit: 100) {

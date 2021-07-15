@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `cassyPost`,
+    title: `cassypost`,
     description: `Get the most recent news on blockchain, crypto industry at cassyPost. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
     author: `@cassyjnr`,
     // author: {
@@ -88,7 +88,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#f7102b`,
         display: `minimal-ui`,
-        icon: `static/favicon.ico`,
+        icon: `static/favicon.png`,
       },
     },
 

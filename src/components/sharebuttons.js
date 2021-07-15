@@ -8,8 +8,8 @@ import {
   LinkedinIcon,
   TwitterShareButton,
   TwitterIcon,
-  EmailShareButton,
-  EmailIcon,
+  // EmailShareButton,
+  // EmailIcon,
   WhatsappShareButton,
   WhatsappIcon,
   RedditShareButton,
@@ -24,9 +24,9 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
                 <FacebookIcon  size={40} round={true} className="icon"/>
          </FacebookShareButton>
 
-         <EmailShareButton url={url} >
+         {/* <EmailShareButton url={url} >
                 <EmailIcon  size={40} round={true} className="icon"/>
-         </EmailShareButton>
+         </EmailShareButton> */}
 
           <TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}>
                 <TwitterIcon  size={40} round={true} className="icon"/>
