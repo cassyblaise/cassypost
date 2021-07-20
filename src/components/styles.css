@@ -392,12 +392,13 @@ body {
   border-radius: 2px;
 }
 .sidebar-emails input[type="submit"] {
-  background: #313de9;
-  color: #eee;
+  background: #000;
+  color: #fff;      
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
-  border: none;
+  border: 1px solid #000;
+  transition: all 0.4s ease;   
   padding: 8px 28px;
   width: 100%;
   margin-bottom: 12px;
@@ -406,7 +407,8 @@ body {
 }
 @media (min-width: 601px) {
   .sidebar-emails input[type="submit"]:hover {
-    background: #989ef0;
+    background: #fff;
+    color: #000;
   }
 }
 .sidebar-emails span {

@@ -24,6 +24,7 @@ const TopicPageTemplate = ({ pageContext }) => {
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
               title
+              author
               description
               tags
               category
