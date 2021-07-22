@@ -71,7 +71,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 500,
             },
           },
           `gatsby-remark-prismjs`,
@@ -82,11 +82,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `cassypost-media`,
+        short_name: `cassypost`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#f7102b`,
+        theme_color: `#000`,
         display: `minimal-ui`,
         icon: `static/favicon.png`,
       },
