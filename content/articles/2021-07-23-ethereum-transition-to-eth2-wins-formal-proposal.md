@@ -1,29 +1,35 @@
 ---
-templateKey: blog-post
-title: Ethereum Transition to ETH2 Wins Formal Proposal
-slug: Ethereum Transition to ETH2 Wins Formal Proposal
-date: 2021-07-23T05:55:05.410Z
-dateModified: 2021-07-23T05:55:05.512Z
-author: Obok  Casmir(Jnr)
-description: Ethereum developers have long been planning to transition from the
-  blockchain to a more cost-effective, secure, and scalable network.
+title: Trump Magacoin Cryptocurrency Website Exposed Its Users Data
+slug: Trump Magacoin Cryptocurrency Website Exposed Its Users Data
+date: 2021-07-23T06:46:11.101Z
+dateModified: 2021-07-23T06:46:11.234Z
+author: Obok Casmir(Jnr)
+description: About 75 million MAGACOIN were created to support pro-Trump candidates in 2022.
 featuredPost: true
 category: News
 tags:
-  - Ethereum
-  - POS
-featuredImage: /images/ether.jpeg
+  - Donald Trump
+  - MAGACOIN
+featuredImage: /images/trump.jpeg
 ---
-A formal Ethereum Improvement Proposal has been created for the network’s forthcoming chain merge, bringing Ethereum one step closer to realizing its highly anticipated Proof-of-Stake transition.
+According to The Guardian, user information including IP addresses, email addresses, and passwords was accessed through a poor security configuration on the project’s website.
 
-ConsenSys researcher Mikhail Kalinin created a pull-request for EIP-3675 on Github, formalizing the chain merge as an improvement proposal for the first time.
+The identities of 1,000 new users signing up to a website associated with a Donald Trump cryptocurrency "magacoin" have been exposed.
 
-The merge would upgrade the blockchain's consensus mechanism to [proof of stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/), a system that allows people to validate transactions and create new blocks based on how much ETH they contribute.
+A hacker was able to breach the websites’ security where they exposed the email addresses, passwords, cryptocurrency wallet addresses, and IP addresses of users who bought Magacoin.
 
-The Ethereum Improvement Proposal which sets for the merge would be discussed during the July 23 Ethereum Core Devs Meeting by developer Tim Beiko.
+The data also reveals that the lion’s share of the cryptocurrency so far produced has been allocated to the self-described creator of magacoin, a pro-Trump consultant who owns an LLC associated with the cryptocurrency, and a Super Pac associated with the same consultant.
 
-According to Tim Beiko,  it is very unlikely the chain merge will occur during 2021 but everything would have to go perfectly.
+An unnamed and self-described hacktivist told The Guardian that more than 1,000 people have signed up, including Republican figures and conservative media personalities, with the majority of hodlers having around 100 MAGACOIN.
 
-The intent of Ethereum 2.0 is to allow more and speedier transactions on the network. The blockchain has often struggled with congestion, as it's not able to process any more than about 15 transactions per second. 
+The project’s creator used car salesman Marc Zelinka, reportedly holds 2 million MAGACOIN, along with Reilly O’Neal, a pro-Trump consultant who is now operating the project.
 
-Since the launch of the beacon chain in December, Eth2 has emerged as the second-largest PoS network by staked capitalization in USD terms, with $12.7 billion worth of Ether locked in staking despite less than 6% of its circulating supply having been deposited.
+One account compromised is linked to the email address of conservative broadcaster John Rush, while another is associated with a Colorado Republican Party youth engagement affiliate, according to the report.
+
+Another Tidewater email address is associated with holdings of just over 2m magacoins. His political consultancy, [Tidewater Strategies](https://twitter.com/tidewaterstrat?lang=en), received large sums from mostly Trumpist Republican candidates in the last election cycle, many of whom failed to win office.
+
+A super political action community (SuperPAC) is also tied to the project and called “MAGACOIN VICTORY FUND”, which has received a 10 million MAGACOIN donation to support “MAGA candidates across the country who will fight for individual rights, religious liberty, protecting the unborn, the 2nd amendment, freedom of speech and the entire America First Agenda.”
+
+The SuperPAC’s mailing address is reportedly located at the same place several other firms and political groups operated by O’Neal.
+
+O’Neal also reportedly has a stake in the far-right conspiracy-minded website Big League Politics (BLP) through another of his companies, Mustard Seed Media.
