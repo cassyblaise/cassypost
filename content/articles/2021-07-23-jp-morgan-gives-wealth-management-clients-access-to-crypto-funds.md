@@ -1,29 +1,28 @@
 ---
-templateKey: blog-post
-title: JP Morgan Gives Wealth Management Clients Access to Crypto  Funds
-slug: JP Morgan Gives Wealth Management Clients Access to Crypto  Funds
-date: 2021-07-23T03:47:55.610Z
-dateModified: 2021-07-23T03:47:55.970Z
-author: Obok Casmir(jnr)
-description: Advisors working for the banking giant are able to now deal with
-  Grayscale Investments and Osprey Funds.
+title: Texas Is Third State,  In The USA that had Crackdown BlockFI This Week
+slug: Texas Is Third State  In The USA that had Crackdown BlockFI This Week
+date: 2021-07-23T04:45:18.336Z
+dateModified: 2021-07-23T04:45:18.395Z
+author: Obok  Casmir(Jnr)
+description: Texas regulators alleged on Thursday that BlockFi’s Interest
+  Account (BIA) product is a security under state rules in the latest blow to
+  the crypto lender’s business model.
 featuredPost: true
 category: News
 tags:
-  - JPMorgan
-  - Business
-featuredImage: /images/jpmorgan.jpeg
+  - BlockFi
+featuredImage: /images/blockfi.jpeg
 ---
-Major U.S. investment bank JPMorgan Chase is allowing its wealth management clients to invest in a selection of crypto funds, including Grayscale Bitcoin Trust (GBTC) according to reports
+Alabama and New Jersey took action against BlockFi earlier this week, alleging securities laws violations.
 
-The bank, which has been making a significant push to grow its $630 billion wealth-management business, told advisors in a memo earlier this week that they can now take orders to buy and sell five cryptocurrency products, four from Grayscale Investments and one from Osprey Funds, effective July 19, according to *Business Insider.* 
+State regulators have filed for a cease-and-desist against BlockFi and two of its subsidiaries, BlockFi Lending and BlockFi Trading, over an alleged sale of unregistered securities.
 
-Grayscale is the biggest asset manager in the crypto world currently [managing](https://twitter.com/Grayscale/status/1417952608527032332) $27.5 billion. It is owned by Digital Currency Group, a New York City-based venture capital firm. But as of late, the firm’s shares have been trading at a discount to the price of Bitcoin. 
+New Jersey was the first state to go after BlockFi for its alleged dealings in unregistered securities, filing a cease-and-desist earlier this week. Just yesterday, Alabama regulators hit the company with a show-cause notice essentially a threat, asking BlockFi to defend itself against a potential cease-and-desist
 
-The move follows a report that a large number of JPMorgan clients see cryptocurrencies, including Bitcoin (BTC), as an asset class, including those plugged into the commission-free Chase trading app with easy access to indirect crypto investing. Trust products from Grayscale and Osprey are “price exposure” vehicles that sidestep custody headaches. 
+Texas said it notified BlockFi in late April that its lending product might be violating state securities rules. The lender continued to illegally offer BIA(BlockFi Interest Account ) in Texas, according to The Texas State Securities Board (TSSB).
 
-*Business Insider* added that JPMorgan's advisors can execute only "unsolicited" crypto trades, meaning advisors cannot recommend the products but are allowed to buy or sell on the behalf of a client's request.
+“The BIAs constitute investment contracts, notes, or evidences of indebtedness regulated as securities as that term is defined by Section 4.A of the Securities Act,” the filing said.
 
-In March, the bank said it had designed a new debt instrument that provides investors direct exposure to a basket of crypto-focused companies, including business intelligence firm MicroStrategy. In addition, the company recently posted that it would be hiring for positions focusing on blockchain technology, including software developers, engineers, and auditors.
+But the company  tweeted that: "the BlockFi Interest Account is not a security." Our stance hasn't changed - the BlockFI Interest Account is not a security.
 
-In 2017, the company’s CEO, Jamie Dimon, previously [called](https://www.cnbc.com/2017/09/12/jpmorgan-ceo-jamie-dimon-raises-flag-on-trading-revenue-sees-20-percent-fall-for-the-third-quarter.html) Bitcoin a “fraud” and threatened to fire employees who traded bitcoin. However, recent reports have suggested that the company is allowing its clients more exposure to space and is adopting blockchain solutions.
+The cease-and-desist hasn’t taken effect, and won’t unless a judge signs off after a hearing in October, the filing gives the company a chance to formally respond to the allegations. The company is allowed to continue operations until the hearing.
