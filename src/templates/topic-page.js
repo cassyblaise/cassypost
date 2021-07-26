@@ -7,7 +7,7 @@ import CardSmall from "../components/cardSmall"
 import Layout from "../components/layout"
 import MailChimpForm from "../components/mailchimpform"
 
-const TopicPageTemplate = ({ pageContext }) => {
+const TopicPageTemplate = ({ pageContext}) => {
   const data = useStaticQuery(graphql`
     {
       site {
@@ -15,7 +15,7 @@ const TopicPageTemplate = ({ pageContext }) => {
           title
         }
       }
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
             fields {
@@ -83,12 +83,18 @@ const TopicPageTemplate = ({ pageContext }) => {
         <div className="cards">
           <h2 id="articles-title">Articles</h2>
           {edgesWithTopic.map(({ node }, index) => {
+           const title = node.frontmatter.title || node.fields.slug
             return (
               <Card
-                key={node.fields.slug}
-                slug={node.fields.slug}
-                frontmatter={node.frontmatter}
-              />
+                    key={node.id}
+                    title={title}
+                    slug={node.fields.slug}
+                    date={node.frontmatter.date}
+                    author={node.frontmatter.author}
+                    description={node.frontmatter.description}
+                    excerpt={node.excerpt}
+                    frontmatter={node.frontmatter}
+                  />
             )
           })}
         </div>

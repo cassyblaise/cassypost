@@ -8,7 +8,7 @@ author: Obok Casmir(Jnr)
 description: Ethereum co-founder and lead developer Vitalik Buterin implored the
   Ethereum community to innovate beyond the confines of decentralized finance.
 featuredPost: true
-category: News
+category: Learn
 tags:
   - Defi
   - Ethereum

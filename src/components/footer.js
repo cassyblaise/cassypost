@@ -3,7 +3,7 @@ import {
   TiSocialTwitter,
   TiSocialLinkedin,
   TiSocialFacebook,
-  // TiSocialYoutube,
+  // TiSocialTelegram,
 } from "react-icons/ti"
 
 const Footer = () => {
@@ -40,6 +40,15 @@ const Footer = () => {
                 <TiSocialLinkedin className="footer-social-icon" />
               </span>
             </a>
+            {/* <a
+              target="_blank"
+              href="https://www.t.me/cassypost"
+              rel="noopener noreferrer"
+            >
+              <span className="icon-container" id="li-icon">
+                <TiSocialTelegram className="footer-social-icon" />
+              </span>
+            </a> */}
             <a
               target="_blank"
               href="https://www.facebook.com/cassypostmedia/"
