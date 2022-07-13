@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
       />
-      
+
       <div className="container">
         <main>{children}</main>
       </div>

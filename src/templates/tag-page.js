@@ -90,7 +90,7 @@ function TagPageTemplate({ pageContext }) {
               </form>
               <span>Weekly updates, unsubscribe at any time</span>
             </div> */}
-             <MailChimpForm />
+            <MailChimpForm />
             <h2 className="sidebar-header">Popular Articles</h2>
             <div className="sidebar-popular">
               {data.allMarkdownRemark.edges.map(({ node }, index) => {

@@ -23,7 +23,7 @@ module.exports = {
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-dark-mode",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -39,7 +39,6 @@ module.exports = {
       },
     },
 
-    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -48,10 +47,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-mailchimp',
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-          endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=bf58177dc8a1774b00194239c&amp;id=7be02f6ae4'
-          // timeout: 3500,
+        endpoint:
+          "https://gmail.us20.list-manage.com/subscribe/post?u=bf58177dc8a1774b00194239c&amp;id=7be02f6ae4",
+        // timeout: 3500,
       },
     },
     {

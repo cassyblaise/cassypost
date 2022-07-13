@@ -7,17 +7,15 @@ import Card from "../components/card"
 import ShareButtons from "../components/sharebuttons"
 import MailChimpForm from "../components/mailchimpform"
 
-
 class ArticleTemplate extends Component {
   render() {
     const { data, pageContext } = this.props
     const { topic } = pageContext
     const post = data.markdownRemark
-    const title = `Read ${this.props.data.markdownRemark.frontmatter.title} `;
-    const url = this.props.location.href;
-    const twitterHandle = "cassyjnr";
-    const tags = this.props.data.markdownRemark.frontmatter.tags;
-
+    const title = `Read ${this.props.data.markdownRemark.frontmatter.title} `
+    const url = this.props.location.href
+    const twitterHandle = "cassyjnr"
+    const tags = this.props.data.markdownRemark.frontmatter.tags
 
     const similarPosts = data.allMarkdownRemark.edges
       .filter(item => {
@@ -63,17 +61,21 @@ class ArticleTemplate extends Component {
               className="article-image"
             ></Image>
           </header>
-         
+
           <div
             className="article-markdown"
-            
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
           <div>
-          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
-         </div>
-         <hr />
-            <MailChimpForm />
+            <ShareButtons
+              title={title}
+              url={url}
+              twitterHandle={twitterHandle}
+              tags={tags}
+            />
+          </div>
+          <hr />
+          <MailChimpForm />
           <div>
             {similarPosts.length > 0 && (
               <h3 id="similar-posts-header">
@@ -112,8 +114,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }
-      ) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
