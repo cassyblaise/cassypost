@@ -11,7 +11,6 @@ import Featured from "../components/featured"
 import Search from "../components/search"
 
 const IndexPage = props => {
-  
   const data = useStaticQuery(graphql`
     {
       tagsGroup: allMarkdownRemark(limit: 100) {
@@ -47,6 +46,8 @@ const IndexPage = props => {
       }
     }
   `)
+
+  console.log(data)
   const [queryType, query] = props.location.search.split("=")
 
   if (queryType === "?s" && query.length > 0) {
@@ -68,19 +69,15 @@ const IndexPage = props => {
           <div className="cards">
             <h2 id="articles-title">Articles</h2>
             {data.allMarkdownRemark.edges.map(({ node }, index) => {
-              if (index < 3) {
-                return null
-              } else {
-                return (
-                  <Card
-                    key={node.id}
-                    slug={node.fields.slug}
-                    date={node.frontmatter.date}
-                    author={node.frontmatter.author}
-                    frontmatter={node.frontmatter}
-                  />
-                )
-              }
+              return (
+                <Card
+                  key={index}
+                  slug={node.fields.slug}
+                  date={node.frontmatter.date}
+                  author={node.frontmatter.author}
+                  frontmatter={node.frontmatter}
+                />
+              )
             })}
           </div>
           <div className="sidebar">
@@ -99,14 +96,14 @@ const IndexPage = props => {
               </form>
               <span>Weekly updates, unsubscribe at any time</span>
             </div> */}
-            
+
             <h2 className="sidebar-header">Popular Articles</h2>
             <div>
               {data.allMarkdownRemark.edges.map(({ node }, index) => {
                 if (index > 2 && index < 5) {
                   return (
                     <CardSmall
-                      key={node.id}
+                      key={index}
                       slug={node.fields.slug}
                       frontmatter={node.frontmatter}
                     />

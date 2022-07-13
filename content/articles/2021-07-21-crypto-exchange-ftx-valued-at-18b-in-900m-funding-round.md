@@ -10,6 +10,7 @@ description: The crypto derivatives exchange  FTX has raised the largest fundin
 featuredPost: true
 category: News
 tags:
+  - News
   - Cryptocurrency
   - Crypto Exchanges
   - FTX
@@ -17,7 +18,8 @@ tags:
   - Venture Capital
 featuredImage: /images/sam.jpeg
 ---
-FTX, the cryptocurrency derivatives exchange founded by Sam Bankman-Fried, has raised $900 million in a funding round, the Series B investment round had over 60 participants, including Paradigm, Sequoia Capital, Coinbase venture, and softbank.
+
+FTX, the cryptocurrency derivatives exchange founded by Sam Bankman-Fried, has raised \$900 million in a funding round, the Series B investment round had over 60 participants, including Paradigm, Sequoia Capital, Coinbase venture, and softbank.
 
 FTX was in founded 2019, has been valued at $18 billion. The company's revenues have increased over tenfold this year and with over 1 million users and averaging over $10B of daily trading volume, FTX has grown into one of the world's leading crypto exchanges.
 
