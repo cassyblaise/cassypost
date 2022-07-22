@@ -11,8 +11,7 @@ description: Despite trading sideways for a couple of weeks, the leading
 featuredPost: true
 category: Learn
 tags:
-  - Bitcoin
-  - News
+  - Learn
 featuredImage: /images/coin.jpg
 ---
 
