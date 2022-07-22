@@ -11,8 +11,10 @@ featuredPost: true
 category: News
 tags:
   - Bitcoin
+  - News
 featuredImage: /images/coin.jpg
 ---
+
 The leading cryptocurrency bitcoin had been trading between a high of $34,564 and a low of $29,696 at the time of writing this article. that is the lowest amount since the last of June 22.
 
 ![bitcoin price tracker](/images/bitcoinlow-1-.png "bitcoin trade below 30k")

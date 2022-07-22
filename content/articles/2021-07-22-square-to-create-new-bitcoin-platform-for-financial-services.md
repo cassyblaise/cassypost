@@ -9,11 +9,13 @@ description: Jack Dorsey announced Square is creating a new company that focused
 featuredPost: true
 category: News
 tags:
+  - News
   - Jack Dorsey
   - Bitcoin
   - Square
 featuredImage: /images/jack.jpeg
 ---
+
 Chief Executive Officer of Twitter / Square INC, Jack Dorsey said in a [tweet](https://twitter.com/jack/status/1415765941904941061) on Thursday, that his [](https://twitter.com/jack/status/1415765941904941061)Payments services company Square will open a new business focused on creating an “open developer platform” to make it easier to provide non-custodial, decentralized financial services.
 
 "Its new business name is TBD," Dorsey tweeted but did not elaborate if the name was to be determined or if it was going to be named "TBD".

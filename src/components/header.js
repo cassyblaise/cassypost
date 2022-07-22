@@ -21,9 +21,7 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
   `)
 
   return (
-    
     <header id="header">
-       
       <div className="container">
         <button
           id="site-logo-wrapper"

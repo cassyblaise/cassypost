@@ -5,7 +5,7 @@
 // import "./global.css"
 
 // class DarkThemeToggler extends React.Component {
-    
+
 //   render() {
 //     return (
 //      <ThemeToggler>
