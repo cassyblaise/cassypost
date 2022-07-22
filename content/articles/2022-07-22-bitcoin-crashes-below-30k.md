@@ -3,8 +3,8 @@ templateKey: blog-post
 title: Michael Saylor Takes Shot at Elon Musk on Twitter Over Tesla’s $936M
   Bitcoin Sale
 slug: Bitcoin-crashes-below-$30K
-date: 2022-07-22T12:45:03.526Z
-dateModified: 2022-07-22T12:45:03.621Z
+date: 2022-07-22T13:05:24.620Z
+dateModified: 2022-07-22T13:05:29.392Z
 author: Obok Casmir(jnr)
 description: Despite trading sideways for a couple of weeks, the leading
   cryptocurrency crashes below $30,000.
