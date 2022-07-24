@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div id="about">
         <h2>About Us</h2>
         <p>
-          <strong>CassyPost Media</strong> is an independent digital media
+          <strong>Merklepal Media</strong> is an independent digital media
           outlet covering a wide range of news on emerging trends, blockchain
           technology, crypto assets. Its focus is educate, inform and also
           features the brightest mind in the tech community to give an insight

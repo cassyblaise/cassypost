@@ -60,7 +60,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>© {new Date().getFullYear()} cassypost </div>
+        <div>© {new Date().getFullYear()} Merklepal </div>
       </div>
     </footer>
   )

@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `cassypost`,
+    title: `Merklepal`,
     description: `Get the most recent news on blockchain, crypto industry at cassyPost. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
     author: `@cassyjnr`,
     // author: {
@@ -54,13 +54,13 @@ module.exports = {
         // timeout: 3500,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: process.env.GA_TRACKING_ID,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     // The property ID; the tracking code won't be generated without it
+    //     trackingId: process.env.GA_TRACKING_ID,
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -82,8 +82,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `cassypost-media`,
-        short_name: `cassypost`,
+        name: `merklepal-media`,
+        short_name: `Merklepal`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#000`,
