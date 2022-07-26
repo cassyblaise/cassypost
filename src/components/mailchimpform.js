@@ -1,3 +1,4 @@
+
 import React from "react"
 import addToMailchimp from "gatsby-plugin-mailchimp"
 
@@ -6,7 +7,7 @@ export default class MailChimpForm extends React.Component {
     super(props)
     this.state = {
       email: "",
-      message: "Subscribe to my list for lots of great reasons",
+      message: " ",
     }
   }
   changeEmailHandler = (event) => {
@@ -15,7 +16,7 @@ export default class MailChimpForm extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    this.setState({ message: "Thanks for subscribing" })
+    this.setState({ message: "Thanks for subscribing🎉🚀" })
     addToMailchimp(this.state.email) // listFields are optional if you are only capturing the email address.
       .then(data => {
         // I recommend setting data to React state
@@ -45,18 +46,20 @@ export default class MailChimpForm extends React.Component {
   render() {
     return (
       <div className="sidebar-emails">
-        <h2>Get the Latest tech news from CassyPost</h2>
+        <h1>{this.state.message}</h1>
+        <h4>Get the Latest tech news from CassyPost</h4>
         <p>
           If you've found any of our articles useful, subscribe to be notified
           of more quality articles as soon as they're published.
         </p>
         <form onSubmit={this.handleSubmit}>
           <input
-            type="text"
+            type="email"
             value={this.state.email}
             onChange={this.changeEmailHandler}
             id="email"
             aria-label="email"
+            required
           />
           <input type="submit" value="Subscribe" aria-label="subscribe" />{" "}
         </form>
@@ -65,3 +68,5 @@ export default class MailChimpForm extends React.Component {
     )
   }
 }
+
+{/* <h1>{this.state.message}</h1> */}

@@ -370,7 +370,7 @@ body {
   border: 1px solid rgb(212, 212, 212);
   border-radius: 4px;
 }
-.sidebar-emails h2 {
+.sidebar-emails h4 {
   font-size: 26px;
   line-height: 39px;
   color: #4d4d4d;
@@ -382,7 +382,7 @@ body {
   color: #686868;
   margin-bottom: 21px;
 }
-.sidebar-emails input[type="text"] {
+.sidebar-emails input[type="email"] {
   padding: 12px;
   height: 32px;
   font-size: 15px;
