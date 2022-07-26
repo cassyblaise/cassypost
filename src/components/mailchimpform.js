@@ -9,12 +9,12 @@ export default class MailChimpForm extends React.Component {
       message: "Subscribe to my list for lots of great reasons",
     }
   }
-  changeEmailHandler = event => {
+  changeEmailHandler = (event) => {
     this.setState({ email: event.target.value })
   }
 
   handleSubmit = e => {
-    e.preventDefault()
+    e.preventDefault();
     this.setState({ message: "Thanks for subscribing" })
     addToMailchimp(this.state.email) // listFields are optional if you are only capturing the email address.
       .then(data => {

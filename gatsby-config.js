@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Merklepal`,
-    description: `Get the most recent news on blockchain, crypto industry at cassyPost. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
+    description: `Get the most recent news on blockchain, crypto industry at merklepal. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
     author: `@cassyjnr`,
     // author: {
     //   name: `Kyle Mathews`,
@@ -49,9 +49,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint:
-          "https://gmail.us20.list-manage.com/subscribe/post?u=bf58177dc8a1774b00194239c&amp;id=7be02f6ae4",
-        // timeout: 3500,
+        endpoint: "https://gmail.us20.list-manage.com/subscribe/post?u=bf58177dc8a1774b00194239c&amp;id=7be02f6ae4",
+        timeout: 3500,
       },
     },
     // {
