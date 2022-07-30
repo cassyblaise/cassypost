@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="footer-social-icons">
             <a
               target="_blank"
-              href="https://twitter.com/cassypost"
+              href="https://twitter.com/merklepal"
               rel="noopener noreferrer"
             >
               <span className="icon-container" id="tw-icon">
@@ -33,7 +33,7 @@ const Footer = () => {
             </a> */}
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/cassypost"
+              href="https://www.linkedin.com/company/merklepal"
               rel="noopener noreferrer"
             >
               <span className="icon-container" id="li-icon">
@@ -51,7 +51,7 @@ const Footer = () => {
             </a> */}
             <a
               target="_blank"
-              href="https://www.facebook.com/cassypostmedia/"
+              href="https://www.facebook.com/Merklepal"
               rel="noopener noreferrer"
             >
               <span className="icon-container" id="fb-icon">

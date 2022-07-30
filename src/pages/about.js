@@ -17,6 +17,12 @@ const AboutPage = () => {
           on the current state and direction of the latest technology.
         </p>
 
+
+        <h2>Contact details</h2>
+          <p>Editorial questions, concerns or comments can be 
+            addressed to: editor@merklepal.com
+          </p>
+
         {/* <div className="about-icons">
           <span role="img" aria-label="Laptop.">
             💻
