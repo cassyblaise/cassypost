@@ -2,6 +2,7 @@ import { Link, useStaticQuery, graphql, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 // import Switch from "react-switch";
+import logo from '../../static/logo_transparent.png'
 import { FiMenu } from "react-icons/fi"
 import { MdClose } from "react-icons/md"
 import { IoIosSearch } from "react-icons/io"
@@ -31,15 +32,24 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
             }
           }}
         >
-          <Link
+   
+     <Link to="/" className="navbar-item">
+              <img src={logo} alt="caslify" 
+                  style={{ 
+                    width: '100px',
+                   
+              }} />
+            </Link>
+
+          {/* <Link
             to="/"
             id="site-logo"
             style={{
               textDecoration: `none`,
             }}
           >
-            {siteTitle}
-          </Link>
+            {/* {siteTitle} 
+          </Link> */}
         </button>
 
         <nav id="nav">
