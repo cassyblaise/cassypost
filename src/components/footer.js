@@ -1,4 +1,5 @@
 import React from "react"
+// import { Link } from 'gatsby'
 import {
   TiSocialTwitter,
   TiSocialLinkedin,
@@ -61,6 +62,7 @@ const Footer = () => {
           </div>
         </div>
         <div>© {new Date().getFullYear()} Merklepal </div>
+        {/* <div><Link to="/rss.xml">RSS feed</Link></div> */}
       </div>
     </footer>
   )
