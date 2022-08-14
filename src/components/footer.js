@@ -33,7 +33,7 @@ const Footer = () => {
               </span>
             </a> */}
             <a
-              target="_blank"
+              targecast="_blank"
               href="https://www.linkedin.com/company/merklepal"
               rel="noopener noreferrer"
             >
