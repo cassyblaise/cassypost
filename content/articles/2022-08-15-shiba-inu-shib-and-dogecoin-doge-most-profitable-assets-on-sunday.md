@@ -13,7 +13,6 @@ tags:
   - News
   - Shiba
   - Dogecoin
-  - ""
 featuredImage: /images/doge.jpeg
 ---
 The biggest memecoin on the market, Dogecoin, and shiba Inu are the top five most profitable digital assets according to CoinMarketCap.\

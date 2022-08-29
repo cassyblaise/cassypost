@@ -47,7 +47,7 @@ export default class MailChimpForm extends React.Component {
     return (
       <div className="sidebar-emails">
         <h1>{this.state.message}</h1>
-        <h4>Get the Latest tech news from CassyPost</h4>
+        <h4>Get the Latest tech news from merklepal</h4>
         <p>
           If you've found any of our articles useful, subscribe to be notified
           of more quality articles as soon as they're published.

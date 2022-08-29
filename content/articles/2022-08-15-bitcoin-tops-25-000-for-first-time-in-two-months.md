@@ -16,7 +16,6 @@ category: News
 tags:
   - News
   - Bitcoin
-  - ""
 featuredImage: /images/coin.jpg
 ---
 The largest cryptocurrency rose as much as 2.2% on Sunday to $25,031, its highest level since June 13. It was trading around $24,750 as of 6 a.m. New York time, rising a fifth straight day in a streak fueled by US consumer-price index data that came in below expectations.
