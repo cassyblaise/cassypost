@@ -68,5 +68,3 @@ export default class MailChimpForm extends React.Component {
     )
   }
 }
-
-{/* <h1>{this.state.message}</h1> */}
