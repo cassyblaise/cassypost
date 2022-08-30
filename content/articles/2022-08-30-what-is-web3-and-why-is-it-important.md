@@ -21,13 +21,13 @@ category: Learn
 tags:
   - Learn
   - Web3
-featuredImage: /images/web3.png
+featuredImage: /images/web.jpg
 ---
 **The Early of the Web**
 
 The evolution of the web started in the 90s, in other to understand the web better, it would be great to explain the three(3) stages of the web separately. 
 
-**WEB1.0(WEB1)**
+**WEB 1.0(WEB1)**
 
 Tim Berners-Lee invented the World Wide Web(WWW) while working at CERN, Geneva in 1989, He developed a protocol a document formatting protocol,  which is called Hypertext Markup Language(HTML).
 
@@ -35,7 +35,7 @@ Web1.0 which evolved from 1990 to 2004, was mainly a static website that was hos
 
 At that time they were few content creators which is mostly web developers that created static websites that displayed only text and images, users can not interact on the site, they can only read the information displayed on it. This is why web1.0 is called read-only web.
 
-**WEB2.0(WEB2)**
+**WEB 2.0(WEB2)**
 
 Web2.0 occurred roughly around 2004 to now, it can be called participative, interactive, or social web. It was at the time social media and with platforms started emerging.
 
@@ -47,14 +47,10 @@ Web2.0 social web( Podcasting, Blogging, Social Networking, etc) allow people to
 
 Web2.0 platforms are mostly centralized services owned by big tech corporations like Twitter, Facebook, Apple, Google, and Amazon.
 
-These top companies began to control a disproportionate amount of the traffic and value generated on the web.  Users don’t have control over their data, these companies where users save their data in their centralized database are in charge of the user data and can do whatever they want from it.
+These top companies began to control a disproportionate amount of the traffic and value generated on the web.  Users don’t have control over their data, these companies where users save their data in their centralized database are in charge of the user data and can do whatever they want from it. This is why web2.0 is called read-write web.\
+**WEB 3.0(WEB3)**
 
-This is why web2.0 is called read-write web.
-
-\
-**WEB3.0(WEB3)**
-
-Web 3.0 is a decentralized web built on blockchain, web2.0 and web3.0 have a few some similarity but the major difference is that web3 is decentralized.
+Web 3.0 is a decentralized web built on blockchain, web2.0 and web3.0 have a few some similarity but the major difference is that web3 is decentralized. You can think of Web3 to be read-write-own.
 
 The term “Web3.0” was coined by ethereum and Polkadot co-founder Gavin Wood in 2014 while on ethereum. Gavin Wood refers to web3.0 as a decentralized online ecosystem based on blockchain. 
 
@@ -67,8 +63,14 @@ In web3.0, developers don’t usually build and deploy applications that run on 
 **THE CORE ELEMENTS OF WEB3.0**
 
 * **Web3.0 is permissionless:** Everyone has equal access to participate in web3.0, and no one gets excluded. 
+
+
 * **Web3.0 has native payments:** It uses cryptocurrency for spending and sending money online instead of relying on the outdated infrastructure of banks and payment processors. Crypto wallets like Metamask, Argent, and Trust Wallet enable you to integrate easy, anonymous, and secure international payments and transactions into web3.0 applications.
+
+
 * **Web3.0 is trustless:** It operates using incentives and economic mechanisms instead of relying on trusted third parties.
+
+
 * **Web3  is decentralized:** Instead of swathes of the internet controlled and owned by centralized entities, ownership gets distributed amongst its builders and users.
 
 **Important Of Web3**
@@ -79,9 +81,7 @@ In web3.0, developers don’t usually build and deploy applications that run on 
 
 **DAOs (Decentralized Autonomous Organizations):**  Are defined technically as agreed-upon smart contracts that automate decentralized decision-making over a pool of resources.
 
-Users with token tokens vote on how resources get spent, and the code automatically performs the voting outcome. This opens up new opportunities for global collaboration and coordination.
-
-\
+Users with token tokens vote on how resources get spent, and the code automatically performs the voting outcome. This opens up new opportunities for global collaboration and coordination.\
 **Native payments:** Web3 uses tokens like [](https://ethereum.org/en/eth/)Eth and Bitcoin to send money directly to your wallet and requires no trusted third party.\
 ETH and Bitcon are a cryptocurrency, It is scarce digital money that you can use on the internet.
 
