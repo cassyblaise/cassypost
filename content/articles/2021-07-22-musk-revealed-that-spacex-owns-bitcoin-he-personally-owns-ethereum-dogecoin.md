@@ -20,6 +20,8 @@ featuredImage: /images/elon.jpeg
 
 Elon Musk appeared alongside Ark Invest CEO Cathie Wood, and Twitter CEO Jack Dorsey, and moderator Steve Lee from Square Crypto at the online conference called 'The B Word,' the conference is aimed to explain how institutions can embrace Bitcoin and how we all can support the network.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wow, this really amazing</p>&mdash; Lord Satoshi (@cassyjnr) <a href="https://twitter.com/cassyjnr/status/1565030805654708225?ref_src=twsrc%5Etfw">August 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 It’s organized by the Crypto Council for Innovation, a group of financial services companies with investments in the space.
 
 Earlier this year Elon Musk announced his company Tesla purchased \$1.5B of bitcoin cryptocurrency and the company will be accepting bitcoin for car payments.

@@ -4,42 +4,39 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 
 const Topics = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
+  const data = useStaticQuery(graphql`{
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  allMarkdownRemark(limit: 2000) {
+    group(field: frontmatter___tags) {
+      fieldValue
+      totalCount
+    }
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
           title
-        }
-      }
-      allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___tags) {
-          fieldValue
-          totalCount
-        }
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              date(formatString: "MMMM DD, YYYY")
-              title
-              description
-              tags
-              category
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 400) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
+          description
+          tags
+          category
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(width: 400, layout: CONSTRAINED)
             }
           }
         }
       }
     }
-  `)
+  }
+}
+`)
 
   return (
     <Layout>

@@ -107,40 +107,37 @@ function ArchivePageTemplate({ data, pageContext }) {
 }
 
 export default ArchivePageTemplate
-export const pageQuery = graphql`
-  query archiveQuery($skip: Int!, $limit: Int!) {
-    site {
-      siteMetadata {
-        title
-      }
+export const pageQuery = graphql`query archiveQuery($skip: Int!, $limit: Int!) {
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-            tags
-            category
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 400) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+  }
+  allMarkdownRemark(
+    sort: {fields: [frontmatter___date], order: DESC}
+    limit: $limit
+    skip: $skip
+  ) {
+    edges {
+      node {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
+          tags
+          category
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(width: 400, layout: CONSTRAINED)
             }
           }
         }
       }
     }
   }
+}
 `

@@ -1,16 +1,16 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
     <Layout>
-      <SEO title="About Marklepal" />
+      <Seo title="About CassyPost" />
       <div id="about">
         <h2>About Us</h2>
         <p>
-          <strong>Merklepal Media</strong> is an independent digital media
+          <strong>CassyPost Media</strong> is an independent digital media
           outlet covering a wide range of news on emerging trends, blockchain
           technology, crypto assets. Its focus is educate, inform and also
           features the brightest mind in the tech community to give an insight
