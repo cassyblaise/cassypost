@@ -1,11 +1,12 @@
-import React, { Component } from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
-import Image from "gatsby-image"
-import SEO from "../components/seo"
-import Card from "../components/card"
-import ShareButtons from "../components/sharebuttons"
-import MailChimpForm from "../components/mailchimpform"
+import React, { Component } from 'react'
+import { Link, graphql } from 'gatsby'
+import Layout from '../components/layout'
+import { GatsbyImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
+import Card from '../components/card'
+import ShareButtons from '../components/sharebuttons'
+import MailChimpForm from '../components/mailchimpform'
+
 
 class ArticleTemplate extends Component {
   render() {
@@ -30,7 +31,7 @@ class ArticleTemplate extends Component {
 
     return (
       <Layout pageType="Post">
-        <SEO
+        <Seo
           title={post.frontmatter.title}
           description={post.frontmatter.description}
         />
@@ -46,20 +47,23 @@ class ArticleTemplate extends Component {
                   className="tag"
                   key={tag}
                   to={`/${tag
-                    .split(" ")
-                    .join("-")
-                    .split("/")
-                    .join("-")
+                    .split(' ')
+                    .join('-')
+                    .split('/')
+                    .join('-')
                     .toLowerCase()}`}
                 >
                   {tag}
                 </Link>
               ))}
             </div>
-            <Image
-              fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+            <GatsbyImage
+              image={
+                post.frontmatter.featuredImage.childImageSharp.gatsbyImageData
+              }
+              alt={post.frontmatter.title}
               className="article-image"
-            ></Image>
+            />
           </header>
 
           <div
@@ -128,9 +132,7 @@ export const pageQuery = graphql`
         category
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 800, layout: CONSTRAINED)
           }
         }
       }
@@ -149,9 +151,7 @@ export const pageQuery = graphql`
             category
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 400) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 400, layout: CONSTRAINED)
               }
             }
           }

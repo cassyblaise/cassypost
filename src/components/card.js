@@ -1,19 +1,20 @@
-import React from "react"
-import { Link } from "gatsby"
-import Image from "gatsby-image"
+import React from 'react'
+import { Link } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 const Card = ({ frontmatter, slug }) => {
   return (
     <figure className="card-styles">
       <Link to={slug}>
-        <Image
+        <GatsbyImage
+          image={frontmatter.featuredImage.childImageSharp.gatsbyImageData}
+          alt={frontmatter.title}
           className="card-image"
-          fluid={frontmatter.featuredImage.childImageSharp.fluid}
         />
       </Link>
 
       <figcaption>
-        <Link to={`/${frontmatter.category.toLowerCase().replace(" ", "-")}`}>
+        <Link to={`/${frontmatter.category.toLowerCase().replace(' ', '-')}`}>
           <div className="card-topic">{frontmatter.category}</div>
         </Link>
         <Link to={slug}>

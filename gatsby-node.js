@@ -1,11 +1,9 @@
 const path = require(`path`)
-const _ = require("lodash")
+const _ = require('lodash')
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const { fmImagesToRelative } = require("gatsby-remark-relative-images")
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
-  fmImagesToRelative(node)
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
@@ -21,8 +19,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const topicPage = path.resolve("./src/templates/topic-page.js")
-  const tagPage = path.resolve("./src/templates/tag-page.js")
+  const topicPage = path.resolve('./src/templates/topic-page.js')
+  const tagPage = path.resolve('./src/templates/tag-page.js')
 
   const result = await graphql(`
     {
@@ -86,7 +84,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/archive` : `/archive/${i + 1}`,
-      component: path.resolve("./src/templates/archive-page.js"),
+      component: path.resolve('./src/templates/archive-page.js'),
       context: {
         limit: postsPerPage,
         skip: i * postsPerPage,

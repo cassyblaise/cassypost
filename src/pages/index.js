@@ -1,14 +1,14 @@
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import { FaAngleDoubleRight } from "react-icons/fa"
-import MailChimpForm from "../components/mailchimpform"
+import React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
+import { FaAngleDoubleRight } from 'react-icons/fa'
+import MailChimpForm from '../components/mailchimpform'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Card from "../components/card"
-import CardSmall from "../components/cardSmall"
-import Featured from "../components/featured"
-import Search from "../components/search"
+import Layout from '../components/layout'
+import Seo from '../components/seo'
+import Card from '../components/card'
+import CardSmall from '../components/cardSmall'
+import Featured from '../components/featured'
+import Search from '../components/search'
 
 const IndexPage = props => {
   const data = useStaticQuery(graphql`
@@ -34,9 +34,7 @@ const IndexPage = props => {
               tags
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 600) {
-                    ...GatsbyImageSharpFluid
-                  }
+                  gatsbyImageData(width: 800, layout: CONSTRAINED)
                 }
               }
             }
@@ -47,10 +45,9 @@ const IndexPage = props => {
     }
   `)
 
-  console.log(data)
-  const [queryType, query] = props.location.search.split("=")
+  const [queryType, query] = props.location.search.split('=')
 
-  if (queryType === "?s" && query.length > 0) {
+  if (queryType === '?s' && query.length > 0) {
     return (
       <Layout>
         <Search
@@ -63,7 +60,7 @@ const IndexPage = props => {
   } else {
     return (
       <Layout>
-        <SEO title="Home" slug="/" />
+        <Seo title="Home" slug="/" />
         <Featured markdown={data.allMarkdownRemark} />
         <div className="flex-layout">
           <div className="cards">
@@ -116,7 +113,7 @@ const IndexPage = props => {
         <Link to="/archive/2" id="archive-link">
           More Articles
           <FaAngleDoubleRight className="icon-right" />
-        </Link>{" "}
+        </Link>{' '}
         <br />
       </Layout>
     )

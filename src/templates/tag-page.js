@@ -9,39 +9,36 @@ import Card from "../components/card"
 import CardSmall from "../components/cardSmall"
 
 function TagPageTemplate({ pageContext }) {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          title
+  const data = useStaticQuery(graphql`{
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  allMarkdownRemark {
+    edges {
+      node {
+        fields {
+          slug
         }
-      }
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              slug
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
+          tags
+          category
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(width: 400, layout: CONSTRAINED)
             }
-            frontmatter {
-              date(formatString: "MMMM DD, YYYY")
-              title
-              description
-              tags
-              category
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 400) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            timeToRead
           }
         }
+        timeToRead
       }
     }
-  `)
+  }
+}
+`)
 
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark

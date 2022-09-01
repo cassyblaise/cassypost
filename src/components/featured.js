@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import Image from "gatsby-image"
+import React from 'react'
+import { Link } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 const Featured = ({ markdown }) => {
   if (!markdown) {
@@ -17,8 +17,12 @@ const Featured = ({ markdown }) => {
               >
                 <Link to={node.fields.slug}>
                   <div className="featured-overlay"></div>
-                  <Image
-                    fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                  <GatsbyImage
+                    image={
+                      node.frontmatter.featuredImage.childImageSharp
+                        .gatsbyImageData
+                    }
+                    alt={node.frontmatter.title}
                   />
                   <figcaption>
                     <h2>{node.frontmatter.title}</h2>
@@ -35,8 +39,12 @@ const Featured = ({ markdown }) => {
               >
                 <Link to={node.fields.slug}>
                   <div className="featured-overlay"></div>
-                  <Image
-                    fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                  <GatsbyImage
+                    image={
+                      node.frontmatter.featuredImage.childImageSharp
+                        .gatsbyImageData
+                    }
+                    alt={node.frontmatter.title}
                   />
                   <figcaption>
                     <h2>{node.frontmatter.title}</h2>

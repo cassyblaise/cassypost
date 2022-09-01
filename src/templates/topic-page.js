@@ -1,62 +1,58 @@
 import React from "react"
 
 import { graphql, useStaticQuery } from "gatsby"
-import Image from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import Card from "../components/card"
 import CardSmall from "../components/cardSmall"
 import Layout from "../components/layout"
 import MailChimpForm from "../components/mailchimpform"
 
-const TopicPageTemplate = ({ pageContext }) => {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          title
+
+const TopicPageTemplate = ({ pageContext}) => {
+  const data = useStaticQuery(graphql`{
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    edges {
+      node {
+        fields {
+          slug
         }
-      }
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-        edges {
-          node {
-            fields {
-              slug
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          author
+          description
+          tags
+          category
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(width: 400, layout: CONSTRAINED)
             }
-            frontmatter {
-              date(formatString: "MMMM DD, YYYY")
-              title
-              author
-              description
-              tags
-              category
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 400) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            timeToRead
           }
         }
+        timeToRead
       }
-      allTopicsJson {
-        edges {
-          node {
-            name
-            slug
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, maxHeight: 240) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+    }
+  }
+  allTopicsJson {
+    edges {
+      node {
+        name
+        slug
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 240, height: 240, layout: CONSTRAINED)
           }
         }
       }
     }
-  `)
+  }
+}
+`)
 
   const { topic } = pageContext
   const { edges } = data.allMarkdownRemark
@@ -73,11 +69,10 @@ const TopicPageTemplate = ({ pageContext }) => {
     <Layout pageType="Topic">
       <div className="topic-page-header">
         <h1>{topic}</h1>
-        <Image
+        <GatsbyImage
+          image={topicInfo.image.childImageSharp.gatsbyImageData}
           className="topic-page-image"
-          fluid={topicInfo.image.childImageSharp.fluid}
-          alt={topicInfo.name}
-        />{" "}
+          alt={topicInfo.name} />{" "}
       </div>
       <div className="flex-layout">
         <div className="cards">
@@ -132,7 +127,7 @@ const TopicPageTemplate = ({ pageContext }) => {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
 export default TopicPageTemplate
