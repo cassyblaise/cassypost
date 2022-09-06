@@ -15,7 +15,7 @@ tags:
   - News
   - Binance
   - CZ
-featuredImage: /images/binance.jpeg
+featuredImage: /images/binance.png
 ---
 Changpeng Zhao published [a blog post](https://www.binance.com/en/blog/from-cz/who-is-guanying-chen-and-is-binance-a-chinese-company-2386330931319516973) on Thursday  Zhao wrote that the world’s largest crypto exchange by trading volume shares similar staff profiles as other major exchanges like FTX and Crypto.com, but “some people insist on calling us a ‘Chinese company,’ and in doing so, they don’t mean well. he stated:
 
