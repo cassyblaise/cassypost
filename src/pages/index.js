@@ -110,10 +110,14 @@ const IndexPage = props => {
             </div>
           </div>
         </div>
-        <Link to="/archive/2" id="archive-link">
+        <Link to="/archive/2" className="paginationLink archiveLink">
+            More Articles
+            <FaAngleDoubleRight />
+          </Link>
+        {/* <Link to="/archive/2" id="archive-link">
           More Articles
           <FaAngleDoubleRight className="icon-right" />
-        </Link>{' '}
+        </Link>{' '} */}
         <br />
       </Layout>
     )
