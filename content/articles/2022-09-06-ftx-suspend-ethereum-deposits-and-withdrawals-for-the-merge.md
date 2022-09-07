@@ -11,7 +11,6 @@ category: News
 tags:
   - News
   - CryptoScams
-  - ""
 featuredImage: /images/coins.jpg
 ---
 The Australian Federal Police has set up a new cryptocurrency unit to target money laundering as more criminals seek to bypass the financial system and funnel money offshore.
