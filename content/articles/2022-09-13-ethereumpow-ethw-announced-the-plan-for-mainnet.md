@@ -5,8 +5,8 @@ slug: EthereumPoW ETHW  Announced the Plan for Mainnet
 date: 2022-09-13T04:59:19.843Z
 dateModified: 2022-09-13T04:59:20.193Z
 author: Obok Casmir(Jnr)
-description: The Ethereum proof of work fork will deploy within 24 hours of The
-  Merge according to a thread posted Monday on the Twitter feed.
+description: The Ethereum proof of work fork will deploy within 24 hours of the
+  Merge, according to a thread posted Monday on the Twitter feed.
 featuredPost: true
 category: News
 tags:
