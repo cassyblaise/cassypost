@@ -14,6 +14,8 @@ tags:
   - ETHW
 featuredImage: /images/etherpow.jpeg
 ---
+The Ethereum proof of work fork will deploy within 24 hours of The Merge according to a thread posted Monday on the Twitter feed.
+
 ETHW mainnet will happen within 24 hours after the Merge, the [@EthereumPow](https://twitter.com/EthereumPoW) Twitter account posted on the thread on Monday:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ETHW Core Announced the Plan for Mainnet<a href="https://twitter.com/hashtag/ethereum?src=hash&amp;ref_src=twsrc%5Etfw">#ethereum</a> <a href="https://twitter.com/hashtag/ethw?src=hash&amp;ref_src=twsrc%5Etfw">#ethw</a> <a href="https://twitter.com/hashtag/ethereummerge?src=hash&amp;ref_src=twsrc%5Etfw">#ethereummerge</a> <a href="https://twitter.com/hashtag/ethereumfork?src=hash&amp;ref_src=twsrc%5Etfw">#ethereumfork</a> <a href="https://twitter.com/search?q=%24ethw&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$ethw</a> <a href="https://twitter.com/search?q=%24eth&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$eth</a> <a href="https://twitter.com/hashtag/ethpow?src=hash&amp;ref_src=twsrc%5Etfw">#ethpow</a> <br><br>1/n <a href="https://t.co/cnYOW6l1iU">pic.twitter.com/cnYOW6l1iU</a></p>&mdash; EthereumPoW (ETHW) Official #ETHW #ETHPoW (@EthereumPoW) <a href="https://twitter.com/EthereumPoW/status/1569427804764405761?ref_src=twsrc%5Etfw">September 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
