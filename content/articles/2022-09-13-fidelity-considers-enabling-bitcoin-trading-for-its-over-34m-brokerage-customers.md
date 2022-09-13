@@ -18,6 +18,8 @@ tags:
   - Investment
 featuredImage: /images/fidelity-investments.jpg
 ---
+Fidelity Investments is looking to offer Bitcoin to its retail investors. Fidelity has more than 34 million brokerage accounts from such investors.
+
 Fidelity Investments is considering a move that would allow its individual brokerage customers to trade Bitcoin (BTC), according to a [Wall Street Journal report. ](https://www.wsj.com/articles/fidelity-weighs-bitcoin-trading-on-brokerage-platform-11663008698) 
 
 The Wall Street Journal stated that "people familiar with the matter said, marking the financial giant’s latest foray into cryptocurrencies."   and a statement from one of Fidelity’s crypto clients, Galaxy Holdings Ltd.’s CEO Mike Novogratz, who hinted about Fidelity’s latest crypto plans. 
