@@ -15,6 +15,8 @@ tags:
   - Domain
 featuredImage: /images/wall-logo-new.jpg
 ---
+True Names claims GoDaddy falsely announced the eth.link domain had expired, and it had been sold to a third party.
+
 True Names the company behind the Ethereum Name Service (ENS) has filed suit against domain registrar GoDaddy over the sale of a domain name it previously owned.
 
 GoDaddy falsely announced the eth.link domain had expired, and it had been sold to a third party.
