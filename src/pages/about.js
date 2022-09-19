@@ -15,6 +15,7 @@ const AboutPage = () => {
           technology, crypto assets. Its focus is educate, inform and also
           features the brightest mind in the tech community to give an insight
           on the current state and direction of the latest technology.
+          Defi talks, We translate.
         </p>
 
 

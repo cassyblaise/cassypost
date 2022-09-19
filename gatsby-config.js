@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Merklepal`,
     siteUrl: `https://www.merklepal.com`,
-    description: `Get the most recent news on blockchain, crypto industry at merklepal. Latest news about blockchain, bitcoin, ethereum, chia, mining, cryptocurrency prices, data and more.`,
+    description: `Get the most recent news on blockchain, crypto industry at merklepal. Latest news about web3, blockchain, bitcoin, ethereum, mining, cryptocurrency prices, defi talks, we translate.`,
     author: `@cassyjnr`,
     // author: {
     //   name: `Kyle Mathews`,
