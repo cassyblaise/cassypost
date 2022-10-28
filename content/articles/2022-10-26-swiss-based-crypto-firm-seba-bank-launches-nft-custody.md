@@ -14,7 +14,7 @@ tags:
   - News
   - NFT
   - Crypto
-featuredImage: /images/seba.jpg
+featuredImage: /images/sebax.jpg
 ---
 Crypto firm Seba Bank has started offering nonfungible tokens (NFT)  services to retail and institutional clients, NFT holders can now store their NFT collections like bored Apes and cryptopunks in the custodial service.
 
